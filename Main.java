@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Usage: java TextToDirectedGraph <filepath>");
             return;
         }
-
+        System.out.println("hello, world");
         String filePath = args[0];
         try {
             // 根据命令行传入的文本文件创建有向图
